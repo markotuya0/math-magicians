@@ -19,7 +19,7 @@ To get a local copy up and running follow these simple example steps.
 - Basic JavaScript and React
 
 ### Setup
-- Run `git clone https://github.com/markotuya0/math-magicians.git` in your terminal
+- clone thos repo by copying & running  this link https://github.com/markotuya0/math-magicians.git  in your terminal
 - Switch to the project's directory
 - Run `npm install`
 - Run `npm start`
