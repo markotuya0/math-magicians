@@ -1,5 +1,6 @@
 .calculator {
   width: fit-content;
+  margin: 80px auto;
 }
 
 .screen {
