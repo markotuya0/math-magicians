@@ -5,28 +5,21 @@ import {
   Route,
 } from 'react-router-dom';
 import './App.css';
-import Calculator from './components/calculator';
 import Header from './components/Header';
 import Home from './components/Home';
+import Math from './components/Math';
 import Quotes from './components/Quotes';
 
-class App extends React.PureComponent {
-  render() {
-    return (
-      <>
-        <Router>
-          <Header />
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/Header" element={<Header />} />
-            <Route path="/quote" element={<Quotes />} />
-          </Routes>
-        </Router>
-        <Calculator />
-      </>
-
-    );
-  }
-}
+const App = (() => (
+  <Router>
+    <Header />
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/calculator" element={<Math />} />
+      <Route path="/quote" element={<Quotes />} />
+    </Routes>
+  </Router>
+)
+);
 
 export default App;
