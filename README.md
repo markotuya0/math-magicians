@@ -8,7 +8,7 @@
 
 - React
 
-
+[netlify live server](https://prismatic-cocada-e0c7a7.netlify.app/)
 
 ## Getting Started
 
