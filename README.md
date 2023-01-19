@@ -8,7 +8,9 @@
 
 ## Built With
 
-- React
+Major languages: JavaScript
+Library: React.js
+Technologies used: CSS3, JSX
 
 [netlify live server](https://marks-math-magician.netlify.app/)
 
